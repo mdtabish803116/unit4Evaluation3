@@ -1,0 +1,31 @@
+#table {
+    width : 80%;
+    border : 1px solid black;
+    margin : auto;
+    font-size : 20px;
+    text-align : center;
+    border-collapse : collapse;
+    margin-top : 50px;
+}
+
+#table > thead > tr > th {  
+        border : 1px solid black;
+        color : teal;
+}
+
+#table > #tbody > tr > td {
+     font-size : 18px;
+    border : 1px solid black;
+}
+
+@media all and (min-width: 451px) and (max-width : 850px){
+       #table {
+           width : 90%;
+       }
+}
+
+@media all and (min-width: 51px) and (max-width : 450px){
+    #table {
+        width : 100%;
+    }
+}

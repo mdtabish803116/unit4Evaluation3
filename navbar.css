@@ -1,0 +1,29 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+
+#navbar {
+    display : flex;
+    height : 60px;
+    justify-content : space-between;
+    margin : auto;
+    font-size : 30px;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding : 0px 50px;
+    align-items : center;
+}
+
+#navbar a {
+    text-decoration : none;
+    color : teal;
+}
+
+@media all and (min-width :51px) and (max-width : 450px){
+     #navbar {
+         width : 100%;
+         font-size : 20px;
+     }
+}
+
